@@ -10,6 +10,7 @@ import java.time.LocalDateTime;
 @Table(name = "TB_EMAIL")
 public class EmailModel {
     private static final long seriaVersionUID =1L;
+    public static String getEmailFrom;
 
 
     @Id
